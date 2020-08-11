@@ -1,8 +1,9 @@
 # Table of contents
 
-* [알고리즘](README.md)
+* [파이썬](README.md)
 
-## 문제 <a id="1."></a>
+## 파이썬 기초
 
-* [1. 하노이의 탑](1./1..md)
+* [입출력, 형변환](undefined/undefined.md)
+* [변수, 조건문, 리스트, 문자열](undefined/undefined-1.md)
 

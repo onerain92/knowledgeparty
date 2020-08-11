@@ -1,9 +1,8 @@
 # Table of contents
 
-* [파이썬](README.md)
+* [수학](README.md)
 
-## 파이썬 기초
+## 수열과 극한
 
-* [입출력, 형변환](undefined/undefined.md)
-* [변수, 조건문, 리스트, 문자열](undefined/undefined-1.md)
+* [여러가지 수열](undefined/undefined.md)
 

@@ -253,3 +253,54 @@ for dong in dongs:
         print(dong, ho)
 ```
 
+
+
+## For ~ else 문
+
+* for와 함께 쓰는 else는 for문이 중간에 break 등으로 끊기지 않고 끝까지 수행되었을 때 수행하는 코드를 담고 있습니다.
+* if 문에 else를 사용하듯이 else를 사용하며 else의 들여쓰기는 for와 일치해야 합니다.
+
+```text
+import random
+
+lucky_num = random.randint(1, 100)
+  print(f"lucky_num is {lucky_num}")
+  
+  for i in range(10):
+    num = random.randint(1, 100)
+    
+    if num == lucky_num:
+      print(f"Success")
+      break
+    if i == 9:
+      print("Fail")
+```
+
+* 1부터 100 사이의 숫자 중 하나를 랜덤으로 생성해 'lucky\_num' 변수로 선언
+* 반복문을 10번 돌면서 랜덤으로 1부터 100 사이의 숫자를 생성.
+* 만약 랜덤으로 생성된 숫자가 lucky\_num과 같다면 'Success'를 출력하고 반복문을 멈춘다.
+* lucky\_num과 같은 숫자가 한 번도 생성되지 않았다면 'Fail'을 출력한다.
+
+의 코드를 for ~ else 형식으로 바꾸면 다음과 같다.
+
+```text
+import random
+
+    lucky_num = random.randint(1, 100)
+    print(f"lucky_num is {lucky_num}")
+    
+    for _ in range(10):
+        num = random.randint(1, 100)
+        
+        if num == lucky_num:
+            print(f"Success")
+            break
+    else:
+        print("Fail")
+```
+
+* for 문 안에서 마지막 인덱스를 확인하던 절차가 사라졌으며, for문 바깥쪽에 else 문이 추가되어 break가 발생하지 않았을 때의 동작에 대해 작성되어있다.
+* for문 안에서 break가 발생한다면 else문은 실행되지 않는다.
+
+
+

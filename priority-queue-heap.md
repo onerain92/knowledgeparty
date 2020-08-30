@@ -27,7 +27,7 @@ description: 영단어 Heap은 '무엇인가를 차곡차곡 쌓아 올린 더�
 * **힙**\(heap\)은 **최댓값** 및 **최솟값**을 찾아내는 연산을 빠르게 하기 위해 고안된 완전 이진 트리\(complete binary tree\)를 기본으로 한 자료구조\(tree-based structure\)이다. 
 * '이진 트리'이되 '완전 이진 트리'이다. 그리고 모든 노드에 저장된 값은 자식 노드에 저장된 값보다 크거나 같아야 한다. 즉, 루트 노드에 저장된 값이 가장 커야 한다.
 
-## 3. 힙 \( HEAP \)의 종
+## 3. 힙 \( HEAP \)의 종류
 
 ![Min-Max Heap](.gitbook/assets/min-max-heap.png)
 

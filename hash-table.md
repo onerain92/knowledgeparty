@@ -224,7 +224,113 @@ def read_data(data):
         return None
 ```
 
+3. 빈번한 충돌을 개선하는 기법
 
+* 해시 함수를 재정의 및 해시 테이블 저장공간을 확대
+* e.g.\)
+
+```text
+hash_table = list([None for i in range(16)])
+
+def hash_function(key):
+    return key % 16
+```
+
+
+
+4. 참고
+
+* 파이썬의 hash\(\) 함수는 실행할 때마다 값이 달라질 수 있다.
+* 유명한 해시 함수들이 있다 : SHA\(Secure Hash Algorithm, 안전한 해시 알고리즘\)
+  * 어떤 데이터도 유일한 고정된 크기의 고정값을 리턴해주므로, 해시 함수로 유용하게 활용 가능하다.
+
+```text
+# SHA-1
+
+import hashlib
+
+data = 'test'.encode() # 바이트로 변환
+hash_object = hashlib.sha1()
+hash_object.update(data)
+hex_dig = hash_object.hexdigest()
+print(hex_dig)
+```
+
+```text
+# SHA-256
+
+import hashlib
+
+data = 'test'.encode() # 바이트로 변환
+hash_object = hashlib.sha256()
+hash_object.update(data)
+hex_dig = hash_object.hexdigest()
+print(hex_dig)
+```
+
+#### 
+
+#### Chaining 기법을 적용한 해시 테이블 코드에 키 생성 함수를 sha256 해시 알고리즘을 사용하도록 변경해보기.
+
+```text
+import hashlib
+
+hash_table = list([0 for i range(8)])
+
+def get_key(data):
+    hash_object = hashlib.sha256()
+    hash_object.update(data.encode())
+    hex_dig = hash_object.hexdigest()
+    
+    return int(hex_dig, 16)
+    
+def hash_function(key):
+    return key % 8
+    
+def save_data(data, value):
+    index_key = get_key(data)
+    hash_address = hash_function(index_key)
+    
+    if hash_table[hash_address] != 0:
+        for index in range(hash_address, len(hash_table)):
+            if hash_table[index] == 0:
+                hash_table[index] = [index_key, value]
+                return
+            elif hash_table[index][0] == index_key:
+                hash_table[index][1] = value
+                return
+    else:
+        hash_table[hash_address] = [index_key, value]
+    
+def read_data(data):
+    index_key = get_key(data)
+    hash_address = hash_function(index_key)
+    
+    if hash_table[hash_address] != 0:
+        for index in range(hash_address, len(hash_table)):
+            if hash_table[index] == 0:
+                return None
+            elif hash_table[index][0] == index_key:
+                return hash_table[index][1]
+    else:
+        return None
+```
+
+
+
+## 7. 시간 복잡도
+
+* 일반적인 경우\( Collision이 없는 경우 \) : O\(1\)
+* 최악의 경우 \( Collision이 모두 발생하는 경우 \) : O\(n\)
+
+{% hint style="info" %}
+해시 테이블의 경우, 일반적인 경우를 기대하고 만들기 때문에 시간 복잡도는 O\(1\) 이라고 말할 수 있다.
+{% endhint %}
+
+#### 검색에서 해시 테이블의 사용 예
+
+* 16개의 배열에 데이터를 저장하고 검색할 때 O\(n\)
+* 16개의 데이터 저장공간을 가진 위의 해시 테이블에 데이터를 저장하고 검색할 때 O\(1\)
 
 
 

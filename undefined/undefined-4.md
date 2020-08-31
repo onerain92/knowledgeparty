@@ -80,3 +80,20 @@ list(zip("abc", "def"))
 
 
 
+## ENUMERATE
+
+* '열거하다' 라는 뜻이다.
+* 이 함수는 순서가 있는 자료형\( 리스트, 튜플, 문자열 \)을 입력으로 받아 인덱스 값을 포함하는 enumerate 객체를 돌려준다.
+* 자료형의 현재 순서\( index \)와 그 값을 쉽게 알 수 있다.
+
+```text
+for i, name in enumerate(['body', 'foo', 'bar']):
+    print(i, name)
+    
+# 0, body
+# 1, foo
+# 2, bar
+```
+
+
+

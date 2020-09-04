@@ -6,6 +6,7 @@
 ## 알고리즘 이론 <a id="undefined-1"></a>
 
 * [정렬](undefined-1/undefined.md)
+* [버블정렬](undefined-1/undefined-1.md)
 
 ## 문제 <a id="1."></a>
 

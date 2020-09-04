@@ -32,7 +32,7 @@ def insertion_sort(arr):
     return arr
 
 random_arr = random.sample(range(100), 50)
-print(selection_sort(random_arr))
+print(insertion_sort(random_arr))
 ```
 
 

@@ -2,13 +2,13 @@
 description: 두 인접한 데이터를 비교해서 앞에 있는 데이터가 뒤에 있는 데이터보다 크면 자리를 바꾸는 정렬 알고리즘.
 ---
 
-# 버블정렬
+# 버블정렬\( Bubble Sort \)
 
 ![https://en.wikipedia.org/wiki/Bubble\_sort](../.gitbook/assets/bubble.gif)
 
 
 
-## 구
+## 구현
 
 * 특이점 찾아보기
   * n개의 리스트가 있는 경우 최대 n - 1번의 로직을 적용한다.

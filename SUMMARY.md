@@ -9,6 +9,7 @@
 * [버블 정렬\( Bubble Sort \)](undefined-1/undefined-1.md)
 * [선택 정렬\( Selection Sort \)](undefined-1/selection-sort.md)
 * [삽입 정렬\( Insertion Sort \)](undefined-1/insertion-sort.md)
+* [퀵 정렬\( Quick Sort \)](undefined-1/quick-sort.md)
 * [재귀 용법\( Recursive call, 재귀 호출  \)](undefined-1/recursive-call.md)
 * [동적 계획법과 분할 정복\( Dynamic Programming & Divide and Conquer \)](undefined-1/dynamic-programming-and-divide-and-conquer.md)
 

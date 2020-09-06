@@ -13,6 +13,7 @@
 * [병합 정렬\( Merge Sort \)](undefined-1/merge-sort.md)
 * [재귀 용법\( Recursive call, 재귀 호출  \)](undefined-1/recursive-call.md)
 * [동적 계획법과 분할 정복\( Dynamic Programming & Divide and Conquer \)](undefined-1/dynamic-programming-and-divide-and-conquer.md)
+* [이진 탐색\( Binary Search \)](undefined-1/binary-search.md)
 
 ## 문제 <a id="1."></a>
 

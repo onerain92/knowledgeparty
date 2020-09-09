@@ -15,6 +15,8 @@
 * [동적 계획법과 분할 정복\( Dynamic Programming & Divide and Conquer \)](undefined-1/dynamic-programming-and-divide-and-conquer.md)
 * [이진 탐색\( Binary Search \)](undefined-1/binary-search.md)
 * [순차 탐색\( Sequential Search \)](undefined-1/sequential-search.md)
+* [그래프\( Graph \)](undefined-1/graph.md)
+* [너비 우선 탐색\( Breadth-First-Search \)](undefined-1/breadth-first-search.md)
 
 ## 문제 <a id="1."></a>
 

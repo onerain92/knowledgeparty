@@ -44,7 +44,39 @@ graph['J'] = ['I']
 
 ## 3. BFS 구현
 
+* 자료구조 Queue를 활용함.
+  * need\_visit 큐와 visited, 큐 두 개의 큐를 생성한다.
 
+![https://www.fun-coding.org](../.gitbook/assets/bfsqueue.png)
+
+```text
+def bfs(graph, start_node):
+    visited = list()
+    need_visit = list()
+    
+    need_visit.append(start_node)
+    
+    while need_visit:
+        node = need_visit.pop(0)
+        
+        if node not in visited:
+            visited.append(node)
+            need_visit.extend(graph[node])
+    
+    return visited
+    
+print(bfs(graph, 'A'))
+```
+
+
+
+## 4. 알고리즘 분석
+
+* 일반적인 BFS 시간 복잡도
+  * 노드 수 : V
+  * 간선 수 : E
+    * 위 코드에서 while need\_visit은 V + E 번 만큼 수행함. 
+  * 시간 복잡도 : O\( V + E \)
 
 
 

@@ -17,6 +17,8 @@
 * [순차 탐색\( Sequential Search \)](undefined-1/sequential-search.md)
 * [그래프\( Graph \)](undefined-1/graph.md)
 * [너비 우선 탐색\( Breadth-First-Search \)과 깊이 우선 탐색\( Depth First Search \)](undefined-1/breadth-first-search.md)
+* [탐욕 알고리즘\( Greedy Algorithm \)](undefined-1/greedy-algorithm.md)
+* [최단 경로 알고리즘](undefined-1/undefined-2.md)
 
 ## 문제 <a id="1."></a>
 

@@ -20,6 +20,7 @@
 * [탐욕 알고리즘\( Greedy Algorithm \)](undefined-1/greedy-algorithm.md)
 * [최단 경로 알고리즘](undefined-1/undefined-2.md)
 * [최소 신장 트리](undefined-1/undefined-3.md)
+* [백 트랙킹\( Backtracking \)](undefined-1/backtracking.md)
 
 ## 문제 <a id="1."></a>
 

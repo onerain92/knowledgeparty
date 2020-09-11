@@ -153,7 +153,7 @@ def union(node_v, node_u):
     root1 = find(node_v)
     root2 = find(node_u)
     
-    # union-by-rank 기
+    # union-by-rank 기법
     if rank[root1] > rank[root2]:
         parent[root2] = root1
     else:
@@ -174,7 +174,7 @@ def kruskal(graph):
     edges = graph['edges']
     edges.sort()
     
-    # 3. 간선 연결( 사이클 없는 )    
+    # 3. 간선 연결( 사이클 없는 )
     for edge in edges:
         weight, node_v, node_u = edge
         

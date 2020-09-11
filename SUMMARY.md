@@ -33,4 +33,6 @@
 * [SHA-256](1./sha-256.md)
 * [수 찾기](1./undefined-5.md)
 * [친구 네트워크](1./undefined-6.md)
+* [수 정렬하기](1./undefined-7.md)
+* [소트인사이드](1./undefined-8.md)
 

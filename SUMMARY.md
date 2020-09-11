@@ -35,4 +35,6 @@
 * [친구 네트워크](1./undefined-6.md)
 * [수 정렬하기](1./undefined-7.md)
 * [소트인사이드](1./undefined-8.md)
+* [나이순 정렬](1./undefined-9.md)
+* [좌표 정렬하기](1./undefined-10.md)
 

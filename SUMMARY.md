@@ -28,4 +28,5 @@
 * [음계](1./undefined.md)
 * [블랙잭](1./undefined-1.md)
 * [스택 수열](1./undefined-2.md)
+* [프린터 큐](1./undefined-3.md)
 

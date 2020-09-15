@@ -55,4 +55,7 @@
 * [최소 힙](1./undefined-21.md)
 * [카드 정렬하기](1./undefined-22.md)
 * [문제집](1./undefined-23.md)
+* [01 타일](1./01.md)
+* [평범한 배낭](1./undefined-24.md)
+* [가장 긴 증가하는 부분수열](1./undefined-25.md)
 

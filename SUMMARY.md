@@ -59,8 +59,9 @@
 * [평범한 배낭](1./undefined-24.md)
 * [가장 긴 증가하는 부분수열](1./undefined-25.md)
 
-## 유형별 문제 <a id="undefined-2"></a>
+## 유형별 문제 <a id="problem-type"></a>
 
-* [그리디](undefined-2/undefined/README.md)
-  * [거스름돈](undefined-2/undefined/undefined.md)
+* [그리디](problem-type/greedy/README.md)
+  * [거스름돈](problem-type/greedy/undefined.md)
+  * [큰 수의 법칙](problem-type/greedy/undefined-1.md)
 

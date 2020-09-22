@@ -12,7 +12,7 @@
 
 
 
-### 답안
+### 내가 푼 답안
 
 ```text
 def solution(money):
@@ -28,4 +28,10 @@ def solution(money):
 
 print(solution(5450))
 ```
+
+
+
+### 분석
+
+화폐의 종류만큼 반복을 수행해야하기 때문에 화폐의 종류가 K개라면 위 코드의 시간 복잡도는 O\( K \)이다. 
 

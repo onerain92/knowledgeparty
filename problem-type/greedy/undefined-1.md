@@ -65,3 +65,26 @@ print(solution(5, 8, 3, [2, 4, 5, 4, 6]))
 
 
 
+### 다른 답안
+
+```text
+def solution(N, M, K, arr):
+    arr.sort()
+    first_value = arr[N - 1]
+    second_value = arr[N - 2]
+
+    count = int(m / (k + 1)) * k
+    count += m % (k + 1)
+    
+    result = 0
+    result += count * first_value
+    result += ( m - count ) * second_value
+
+    return result
+
+
+print(solution(5, 8, 3, [2, 4, 5, 4, 6]))
+```
+
+
+

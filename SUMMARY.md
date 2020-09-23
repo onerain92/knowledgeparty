@@ -65,5 +65,6 @@
   * [거스름돈](problem-type/greedy/undefined.md)
   * [큰 수의 법칙](problem-type/greedy/undefined-1.md)
 * [구현](problem-type/implementation/README.md)
-  * [상하좌우](problem-type/implementation/undefined.md)
+  * [상하좌우](problem-type/implementation/up-down-left-right.md)
+  * [시각](problem-type/implementation/time.md)
 

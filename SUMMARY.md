@@ -73,6 +73,7 @@
   * [게임 개발](problem-type/implementation/game-develop.md)
 * [DFS / BFS](problem-type/dfs-bfs/README.md)
   * [음료수 얼려 먹기](problem-type/dfs-bfs/freeze-drinks.md)
+  * [미로 탈출](problem-type/dfs-bfs/escape-maze.md)
 
 ---
 

@@ -70,6 +70,7 @@
   * [상하좌우](problem-type/implementation/up-down-left-right.md)
   * [시각](problem-type/implementation/time.md)
   * [왕실의 나이트](problem-type/implementation/royal-knight.md)
+  * [게임 개발](problem-type/implementation/game-develop.md)
 
 ---
 

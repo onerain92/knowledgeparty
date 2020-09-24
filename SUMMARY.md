@@ -62,10 +62,12 @@
 ## 유형별 문제 <a id="problem-type"></a>
 
 * [그리디](problem-type/greedy/README.md)
-  * [거스름돈](problem-type/greedy/undefined.md)
-  * [큰 수의 법칙](problem-type/greedy/undefined-1.md)
-  * [숫자 카드 게임](problem-type/greedy/undefined-2.md)
+  * [거스름돈](problem-type/greedy/change.md)
+  * [큰 수의 법칙](problem-type/greedy/rule-of-big-number.md)
+  * [숫자 카드 게임](problem-type/greedy/number-card-game.md)
+  * [1일 될 때까지](problem-type/greedy/until-one.md)
 * [구현](problem-type/implementation/README.md)
   * [상하좌우](problem-type/implementation/up-down-left-right.md)
   * [시각](problem-type/implementation/time.md)
+  * [Untitled](problem-type/implementation/untitled.md)
 

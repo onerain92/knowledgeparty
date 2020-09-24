@@ -74,6 +74,8 @@
 * [DFS / BFS](problem-type/dfs-bfs/README.md)
   * [음료수 얼려 먹기](problem-type/dfs-bfs/freeze-drinks.md)
   * [미로 탈출](problem-type/dfs-bfs/escape-maze.md)
+* [정렬](problem-type/sort/README.md)
+  * [위에서 아래로](problem-type/sort/up-to-down.md)
 
 ---
 

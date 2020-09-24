@@ -68,7 +68,7 @@ print(solution(25, 5))
 
 
 
-### 다른 답안
+### 다른 답안1
 
 ```text
 n, k = map(int, input().split())
@@ -83,6 +83,29 @@ while n >= k:
         n -= 1
         result += 1
 
+print(result)
+```
+
+
+
+### 다른 답안2
+
+```text
+n, k = map(int, input().split())
+result = 0
+
+while True:
+    target = ( n // k) * k
+    result += ( n - target )
+    n = target
+    
+    if n < k:
+        break
+    
+    result += 1
+    n //= k
+    
+result += ( n - 1 )
 print(result)
 ```
 

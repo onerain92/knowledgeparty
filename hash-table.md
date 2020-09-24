@@ -275,9 +275,7 @@ print(hex_dig)
 ```text
 import hashlib
 
-
 hash_table = list([0 for i range(8)])
-
 
 def get_key(data):
     hash_object = hashlib.sha256()
@@ -286,10 +284,8 @@ def get_key(data):
     
     return int(hex_dig, 16)
     
-    
 def hash_function(key):
     return key % 8
-    
     
 def save_data(data, value):
     index_key = get_key(data)
@@ -305,7 +301,6 @@ def save_data(data, value):
                 return
     else:
         hash_table[hash_address] = [index_key, value]
-    
     
 def read_data(data):
     index_key = get_key(data)

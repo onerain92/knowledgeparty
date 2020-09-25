@@ -81,6 +81,7 @@
 * [이진탐색](problem-type/binary-search/README.md)
   * [부품 찾기](problem-type/binary-search/find-parts.md)
   * [떡볶이 떡 만들기](problem-type/binary-search/making-tteokbokki.md)
+* [다이나믹 프로그래밍](problem-type/dynamic-programming.md)
 
 ---
 

@@ -80,6 +80,7 @@
   * [두 배열의 원소 교체](problem-type/sort/replace-elements-in-two-arrays.md)
 * [이진탐색](problem-type/binary-search/README.md)
   * [부품 찾기](problem-type/binary-search/find-parts.md)
+  * [떡볶이 떡 만들기](problem-type/binary-search/making-tteokbokki.md)
 
 ---
 

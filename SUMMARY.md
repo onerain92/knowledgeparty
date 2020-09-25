@@ -86,6 +86,7 @@
   * [개미 전사](problem-type/dynamic-programming/ant-warrior.md)
   * [바닥 공사](problem-type/dynamic-programming/floor-construction.md)
   * [효율적인 화폐 구성](problem-type/dynamic-programming/efficient-monetary-composition.md)
+* [최단 경로](problem-type/shortest-path.md)
 
 ---
 

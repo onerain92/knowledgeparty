@@ -83,6 +83,9 @@
   * [떡볶이 떡 만들기](problem-type/binary-search/making-tteokbokki.md)
 * [다이나믹 프로그래밍](problem-type/dynamic-programming/README.md)
   * [1로 만들기](problem-type/dynamic-programming/make-one.md)
+  * [개미 전사](problem-type/dynamic-programming/ant-warrior.md)
+  * [바닥 공사](problem-type/dynamic-programming/floor-construction.md)
+  * [효율적인 화폐 구성](problem-type/dynamic-programming/efficient-monetary-composition.md)
 
 ---
 

@@ -78,7 +78,8 @@
   * [위에서 아래로](problem-type/sort/up-to-down.md)
   * [성적이 낮은 순서로 학생 출력하기](problem-type/sort/print-students-in-order-of-lowest-grade.md)
   * [두 배열의 원소 교체](problem-type/sort/replace-elements-in-two-arrays.md)
-* [이진탐색](problem-type/binary-search.md)
+* [이진탐색](problem-type/binary-search/README.md)
+  * [부품 찾기](problem-type/binary-search/find-parts.md)
 
 ---
 

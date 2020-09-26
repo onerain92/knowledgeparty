@@ -89,6 +89,7 @@
 * [최단 경로](problem-type/shortest-path/README.md)
   * [미래 도시](problem-type/shortest-path/future-city.md)
   * [전보](problem-type/shortest-path/telegram.md)
+* [그래프](problem-type/graph.md)
 
 ---
 

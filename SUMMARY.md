@@ -89,7 +89,10 @@
 * [최단 경로](problem-type/shortest-path/README.md)
   * [미래 도시](problem-type/shortest-path/future-city.md)
   * [전보](problem-type/shortest-path/telegram.md)
-* [그래프](problem-type/graph.md)
+* [그래프](problem-type/graph/README.md)
+  * [팀 결성](problem-type/graph/team-formation.md)
+  * [도시 분할 계획](problem-type/graph/urban-division-plan.md)
+  * [커리큘럼](problem-type/graph/curriculum.md)
 
 ---
 

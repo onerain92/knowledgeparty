@@ -69,6 +69,7 @@
   * [모험가 길드](problem-type/greedy/adventurer-guild.md)
   * [곱하기 혹은 더하기](problem-type/greedy/multiplication-or-addition.md)
   * [문자열 뒤집기](problem-type/greedy/flip-string.md)
+  * [만들 수 없는 금액](problem-type/greedy/amount-cant-not-be-made.md)
 * [구현](problem-type/implementation/README.md)
   * [상하좌우](problem-type/implementation/up-down-left-right.md)
   * [시각](problem-type/implementation/time.md)

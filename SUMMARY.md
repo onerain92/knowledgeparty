@@ -78,6 +78,7 @@
   * [3. 왕실의 나이트](problem-type/implementation/royal-knight.md)
   * [4. 게임 개발](problem-type/implementation/game-develop.md)
   * [5. 자물쇠와 열쇠](problem-type/implementation/lock-and-key.md)
+  * [6. 뱀](problem-type/implementation/6..md)
 * [DFS / BFS](problem-type/dfs-bfs/README.md)
   * [음료수 얼려 먹기](problem-type/dfs-bfs/freeze-drinks.md)
   * [미로 탈출](problem-type/dfs-bfs/escape-maze.md)

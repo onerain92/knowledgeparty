@@ -1,7 +1,7 @@
 ---
 description: >-
   문제 난이도: 하 / 문제 풀이 시간 : 30분 / 시간 제한 : 1초 / 메모리 제한 : 128MB / 기출 : 2019 카카오 신입 공채
-  / 링크 : https://programmers.co.kr/learn/courses/30/lessons/42981
+  / 링크 : https://programmers.co.kr/learn/courses/30/lessons/42891
 ---
 
 # 10. 무지의 먹방 라이브

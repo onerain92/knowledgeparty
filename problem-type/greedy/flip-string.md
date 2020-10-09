@@ -4,7 +4,7 @@ description: >-
   https://www.acmicpc.net/problem/1439
 ---
 
-# 문자열 뒤집기
+# 7. 문자열 뒤집기
 
 ## 문제 설명
 
